@@ -1,5 +1,5 @@
 //
-//  main.m
+//  OverlayWindow.h
 //  Grab
 //
 //  Created by Robert on 8/31/12.
@@ -8,7 +8,6 @@
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, char *argv[])
-{
-    return NSApplicationMain(argc, (const char **)argv);
-}
+@interface OverlayWindow : NSWindow
+
+@end
